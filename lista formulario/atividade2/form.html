@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario2</title>
+</head>
+<body>
+    <form action="form.php" method="post">
+        <div>
+            <label for="nome">Text: </label>
+            <input type="text" name="text" id="text">
+        </div>
+        <div>
+            <label for="textarea">Text area: </label>
+            <textarea name="textarea" id="textare" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="checkbox">Checkbox:  </label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+        <div>
+            <label for="radio">Radio: </label>
+            <input type="radio" name="radio" id="radio" value="radio">
+        </div>
+        <div>
+            <label for="select">Select e option: </label>
+            <select name="select" id="select">
+                <option value="sul">Sul</option>
+                <option value="sudeste">Sudeste</option>
+                <option value="centro">Centro Oeste</option>
+                <option value="nordeste">Nordeste</option>
+                <option value="norte">Norte</option>
+            </select>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

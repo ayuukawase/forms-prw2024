@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h2>Escolha a opção desejada</h2>
+    <form action="form.php" method="post">
+        <div>
+            <input type="radio" id="somar" name="operacao" value="somar"> Somar <br>
+            <input type="radio" id="subtrair" name="operacao" value="subtrair"> Subtrair <br>
+            <input type="radio" id="dividir" name="operacao" value="dividir"> Dividir <br>
+            <input type="radio" id="multiplicar" name="operacao" value="multiplicar"> Multiplicar <br>
+        </div>
+        <div>
+            <label for="num1">Numero 1: </label>
+            <input type="number" name="num1" id="num1" placeholder="digite um numero">
+        </div>
+        <div>
+            <label for="num1">Numero 2: </label>
+            <input type="number" name="num2" id="num2" placeholder="digite um numero">
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
