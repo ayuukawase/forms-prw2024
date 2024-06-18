@@ -1,0 +1,14 @@
+* {
+    background-color: azure;
+}
+input {
+    border-radius: 5px;
+    margin-top: 1%;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+button {
+    margin-top: 1%;
+    border-radius: 5px;
+}
