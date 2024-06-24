@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulario11</title>
+</head>
+<body>
+  <div>
+    <form action="form.php" method="post">
+        <div>
+            <label for="prontuario">Prontuário: </label>
+           <input type="prontuario" name="prontuario" id="prontuario">
+
+            <br>
+
+           <label for="nome">Nome: </label>
+           <input type="text" name="nome" id="nome">
+           
+           <br>
+
+           <label for="idade">Idade: </label>
+           <input type="number" name="idade" id="idade" min="15" max="75">
+
+           <br>
+
+           <label for="periodo">Período: </label>
+           <select id="periodo " name="periodo">
+            <option value="v">V</option>
+            <option value="n">N</option>
+            </select>
+
+            <br>
+
+           <label for="modulo">Módulo: </label>
+           <select id="modulo" name="modulo">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+
+        </div>
+        <div>
+            <br>
+        <button type="submit">Enviar</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
